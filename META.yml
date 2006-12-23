@@ -1,0 +1,26 @@
+---
+name: Mail-SPF-Test
+version: 1.000000
+author:
+  - 'Julian Mehnle <julian@mehnle.net>'
+abstract: SPF test-suite class
+license: bsd
+requires:
+  Net::DNS: 0.58
+  NetAddr::IP: 4
+  YAML: 0
+  perl: 5.006
+  version: 0
+build_requires:
+  Module::Build: 0.26
+provides:
+  Mail::SPF::Test:
+    file: lib/Mail/SPF/Test.pm
+    version: 1.000000
+  Mail::SPF::Test::Base:
+    file: lib/Mail/SPF/Test/Base.pm
+  Mail::SPF::Test::Case:
+    file: lib/Mail/SPF/Test/Case.pm
+  Mail::SPF::Test::Scenario:
+    file: lib/Mail/SPF/Test/Scenario.pm
+generated_by: Module::Build version 0.26

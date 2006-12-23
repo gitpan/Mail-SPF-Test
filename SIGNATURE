@@ -1,0 +1,44 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 c12b6ac5f8157d625d61451b687a181fc1123a5c Build.PL
+SHA1 551ef1069ef3df37c941feaf3748e3478b8f5601 CHANGES
+SHA1 c063d95c7c3ccf572e02ad100b99ac18db287784 INSTALL
+SHA1 ff40816715ec76e9b494082a819fd18b993bafda LICENSE
+SHA1 ca5f8684889969d9fbe54df514446e07a0bbf499 MANIFEST
+SHA1 18a8a92ef83ca4bb30f4df184a2333538703ea1a META.yml
+SHA1 a359d4072690a21ce63e4b393bdbc19d72b6be5a Makefile.PL
+SHA1 4f94cefeeb68b9e7f0874366374fd2627bac16b5 README
+SHA1 b4935543dab37d70229bea95761db913dd02d665 TODO
+SHA1 fb3b3aea1605dc36573b4db71557cb69ba4031ab debian/changelog
+SHA1 5d9474c0309b7ca09a182d888f73b37a8fe1362c debian/compat
+SHA1 a9ca4c6e3802f4d23a2c2834c343c291bdf637a5 debian/control
+SHA1 d4b6a0b20326c67038cd0e1506ce81327d402eb5 debian/copyright
+SHA1 82e3b9428f66ec70a7479f83e4407ee557c2c006 debian/libmail-spf-test-perl.install
+SHA1 340c5b93675af285e195a0baadea60afc45fb872 debian/rules
+SHA1 7d84cc8bf0e2d3e14fe03cabbff2738ddfb70557 examples/yaml-test
+SHA1 e14a9bc1a9b23b708e0a9623dc8342fb8ee9bf9b examples/yaml-test-stats
+SHA1 9bd57312b291ef2d4bef76cb1c6fcdc4ad4d2abc lib/Mail/SPF/Test.pm
+SHA1 d3cbbe6d950a8798ac584e5188f2ae6cf64431de lib/Mail/SPF/Test/Base.pm
+SHA1 397057b98f4f36309f54319adc5af26b01430aac lib/Mail/SPF/Test/Case.pm
+SHA1 7d087c84317ad96d03a92fb7de735733171c4a72 lib/Mail/SPF/Test/Scenario.pm
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+
+iD8DBQFFjY3HwL7PKlBZWjsRAuK4AKCfYI5zN/5rOFuOBzK7PG3Rclv55wCfXACI
+s4zEF4kHWsccuv+3Kpgfx9o=
+=BWkB
+-----END PGP SIGNATURE-----

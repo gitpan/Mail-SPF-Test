@@ -2,8 +2,8 @@
 # Mail::SPF::Test
 # SPF test-suite class.
 #
-# (C) 2006 Julian Mehnle <julian@mehnle.net>
-# $Id: Test.pm 27 2006-12-23 20:11:21Z Julian Mehnle $
+# (C) 2006-2007 Julian Mehnle <julian@mehnle.net>
+# $Id: Test.pm 105 2007-05-30 20:41:57Z Julian Mehnle $
 #
 ##############################################################################
 
@@ -15,11 +15,11 @@ Mail::SPF::Test - SPF test-suite class
 
 =head1 VERSION
 
-1.000
+1.001
 
 =cut
 
-use version; our $VERSION = qv('1.000');
+use version; our $VERSION = qv('1.001');
 
 use warnings;
 use strict;

@@ -6,7 +6,7 @@ The following Perl version and packages are required for...
 ...building Mail::SPF::Test:
 
   Perl 5.6
-  Module-Build 0.26
+  Module-Build 0.2805
   version
 
 ...running Mail::SPF::Test:
@@ -15,7 +15,7 @@ The following Perl version and packages are required for...
   version
   NetAddr-IP 4
   Net-DNS 0.58
-  YAML
+  YAML 0.50
 
 Building and Installing
 -----------------------
@@ -28,5 +28,5 @@ or manually with the following commands:
   ./Build test
   ./Build install
 
-# $Id$
+# $Id: INSTALL 105 2007-05-30 20:41:57Z Julian Mehnle $
 # vim:tw=79
